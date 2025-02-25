@@ -1,4 +1,4 @@
-export const header = () => {
+const Header = () => {
     return (
         <>
             <img src="/logo.png" alt="A server sorrounded by magic sparckles" />
@@ -6,3 +6,5 @@ export const header = () => {
         </>
     )
 }
+
+export default Header
